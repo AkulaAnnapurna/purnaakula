@@ -1,0 +1,32 @@
+<web-app>
+    <servlet>
+     <servlet-name>spl</servlet-name>
+     <servlet-class>Hello1</servlet-class>
+</servlet>
+      
+<servlet-mapping>
+     <servlet-name>spl</servlet-name>
+      <url-pattern>/prof</url-pattern>
+</servlet-mapping>
+
+<servlet>
+     <servlet-name>puri</servlet-name>
+     <servlet-class>Hello2</servlet-class>
+</servlet>
+      
+<servlet-mapping>
+     <servlet-name>puri</servlet-name>
+      <url-pattern>/pwd</url-pattern>
+</servlet-mapping>
+
+<servlet>
+     <servlet-name>priya</servlet-name>
+     <servlet-class>Test1</servlet-class>
+</servlet>
+      
+<servlet-mapping>
+     <servlet-name>priya</servlet-name>
+      <url-pattern>/std</url-pattern>
+</servlet-mapping>
+
+</web-app>
